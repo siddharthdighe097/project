@@ -5,8 +5,7 @@
     font-size: 50px;
     text-align: center;
     padding: 10px;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
 }
 .heading1:hover{
     cursor: pointer;
@@ -31,6 +30,13 @@ body{
     border-radius: 15px;
     border: 4px solid rgb(96, 147, 198);
     box-shadow: 5px 5px 5px 3px;
+    
+}
+.card:hover{
+    box-shadow: 4px 4px 7px 5px #b8c1ec ;
+    transition: 0.5s;
+    border-radius: 10px;
+   
 }
 .p-img {
     height: 225px;
