@@ -2,11 +2,21 @@
     margin-top: 30px;
     margin-bottom: 40px;
     color: #fffffe;
-    font-size: 50px;
+    font-size: 90px;
     text-align: center;
     padding: 10px;
     margin: 0 auto;    
 }
+.heading2 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #fffffe;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;    
+}
+
 .heading1:hover{
     cursor: pointer;
 }
@@ -81,4 +91,33 @@ body{
 .btn4:hover{
 
     cursor: pointer;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card1 {
+    margin: 20px;
+    background-color: rgb(225, 235, 244);
+    width: 150px;
+    padding: 10px 14px;
+    border-radius: 15px;
+    border: 4px solid rgb(96, 147, 198);
+    box-shadow: 5px 5px 5px 3px;
+    
+}
+.card1:hover{
+    box-shadow: 4px 4px 7px 5px #b8c1ec ;
+    transition: 0.5s;
+    border-radius: 10px;
+   
+}
+.p-img1 {
+    height: 70px;
+    width: 60px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
 }
